@@ -26,7 +26,7 @@ filename = "chanEst_87_1527434449.txt"
 initChanEst = GetChannel(dataFolder / filename)
 plt.plot(initChanEst, label='Initial')
 plt.xlim(0, len(initChanEst))
-#plt.ylim(-400, 500git diff0)
+#plt.ylim(-400, 500)
 #plt.ylim(-3000, 6000)
 plt.ylim(-500, 700)
 plt.title('Channel Estimate')
